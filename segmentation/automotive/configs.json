@@ -1,0 +1,11 @@
+{
+    "train_label_path": "sign_dataset/train/annotation_coco.json",
+    "train_folder_path": "sign_dataset/train",
+    "val_label_path": "sign_dataset/val/annotation_coco.json",
+    "val_folder_path": "sign_dataset/val",
+    "pad_shape": [4,4,8,8],
+    "train_batch_size": 4,
+    "shuffle": true,
+    "init_lr": 0.001,
+    "epochs": 10
+}
