@@ -3,9 +3,16 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+.DS_Store
+*.pt
+*.pth
+*.zip
 *.jpg
+*.png
 *.yaml
 *.ckpt
+*.mov
+*.jpeg
 sign_dataset/
 
 # C extensions

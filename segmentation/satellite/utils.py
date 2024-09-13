@@ -13,5 +13,5 @@ def load_mask(path: str):
 
 def load_image(path: str):
     img = Image.open(path)
-    img = np.array(mask)/254
+    img = np.array(img)/255
     return img
